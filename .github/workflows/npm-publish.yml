@@ -2,10 +2,11 @@
 name: math
 
 on:
-  pull_request:
-  push:
-    branches: 
-      - return4 
+  release:
+  #pull_request:
+  #push:
+  #  branches: 
+  #    - master 
 
 jobs:
   test:
